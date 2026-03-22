@@ -1,6 +1,6 @@
 export default defineEventHandler((event) => {
   const config = useRuntimeConfig(event)
-  const siteUrl = config.public.siteUrl?.replace(/\/$/, '') || 'https://infinityos.ai'
+  const siteUrl = config.public.siteUrl?.replace(/\/$/, '') || 'https://os.iinfinityai.com'
 
   setHeader(event, 'content-type', 'text/plain; charset=utf-8')
 

@@ -29,7 +29,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       waitlistUrl: 'https://forms.office.com/r/yk3QiHKFsu',
-      siteUrl: 'https://infinityos.ai',
+      siteUrl: 'https://os.iinfinityai.com',
       siteName: 'InfinityOS'
     }
   }

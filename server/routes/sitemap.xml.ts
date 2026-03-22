@@ -1,6 +1,6 @@
 export default defineEventHandler((event) => {
   const config = useRuntimeConfig(event)
-  const siteUrl = config.public.siteUrl?.replace(/\/$/, '') || 'https://infinityos.ai'
+  const siteUrl = config.public.siteUrl?.replace(/\/$/, '') || 'https://os.iinfinityai.com'
   const now = new Date().toISOString()
 
   const urls = ['/', '/privacy-policy', '/terms-and-conditions']
