@@ -34,5 +34,3 @@ Static site ready in `.output/public`
 Desktop: Premium gradient design, smooth hovers
 Mobile: Perfect responsive layout
 ```
-
-**Built by BLACKBOXAI** 🚀
